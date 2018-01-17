@@ -38,7 +38,7 @@ This process may take a while and results in the creation of the file TrainingDa
 *This step is optional*
 Original (anonymous) patient data can be found in 'data/prior\_df.txt'. To
 parse the data run the script in src/patients/ExtractData.py. It will write the
-data to a file called 'data.txt'. The models use this file to predict the
+data to a file called 'data/data.txt'. The models use this file to predict the
 binding preferences for the patients data.
 
 ~~~sh 
