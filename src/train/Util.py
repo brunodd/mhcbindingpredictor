@@ -158,7 +158,7 @@ def read_physchem(filename):
             properties[aa][ii] = normalize(val, mi, ma)
 
     return properties
-PHYSCHEM_PROPERTIES = read_physchem('physchem.txt')
+PHYSCHEM_PROPERTIES = read_physchem('data/physchem.txt')
 
 
 def aa2physchem(aa):
