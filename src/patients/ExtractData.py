@@ -36,4 +36,4 @@ def write_to_file(filename, data):
 
 if __name__ == '__main__':
     data = extract()
-    write_to_file('data.txt', data)
+    write_to_file('data/data.txt', data)

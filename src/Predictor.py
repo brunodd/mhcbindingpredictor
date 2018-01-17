@@ -167,7 +167,7 @@ if __name__ == '__main__':
         # nn.load()
 
         # LOAD PATIENT DATA
-        [(hlaa, hlaa_labels), (hlab, hlab_labels), (hlac, hlac_labels)] = load_patient_data('data.txt')
+        [(hlaa, hlaa_labels), (hlab, hlab_labels), (hlac, hlac_labels)] = load_patient_data('data/data.txt')
         test_set = hlaa + hlab + hlac
         test_labels = hlaa_labels + hlab_labels + hlac_labels
 
