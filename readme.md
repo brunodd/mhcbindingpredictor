@@ -9,7 +9,7 @@ pip install -r requirements.txt
 ## Collect the data
 **This step is optional**  
 Download the binding data file *mhc\_ligand\_full.zip* from
-<http://www.iedb.org/database\_export\_v3.php>. Due to its large size, this
+<http://www.iedb.org/database_export_v3.php>. Due to its large size, this
 file is not included in the project by default.
 
 Download the full MHC data (*A\_prot.fasta, B\_prot.fasta* and *C\_prot.fasta*) from <ftp://ftp.ebi.ac.uk/pub/databases/ipd/imgt/hla/fasta>
