@@ -1,0 +1,14 @@
+{
+  "size": "max",
+  "epochs": 30,
+  "batchsize": [64],
+  "datafile": "TrainingDataAll.csv",
+  "activations": {
+    "output": ["sigmoid"],
+    "hidden": ["leakyrelu"]
+  },
+  "early_stopping_patience": 5,
+  "aa_size": 20,
+  "physchem_size": 0,
+  "augment_size": 0
+}
